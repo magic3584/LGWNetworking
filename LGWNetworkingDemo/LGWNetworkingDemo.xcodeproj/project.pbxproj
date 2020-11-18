@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B77B07B3FD20F8DB3556704 /* Pods_LGWNetworkingDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11257FFCFF000905EF78910F /* Pods_LGWNetworkingDemo.framework */; };
+		A144300D2564FE2F008D2D91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A144300C2564FE2F008D2D91 /* AppDelegate.m */; };
+		A14430102564FE2F008D2D91 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A144300F2564FE2F008D2D91 /* SceneDelegate.m */; };
+		A14430132564FE2F008D2D91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A14430122564FE2F008D2D91 /* ViewController.m */; };
+		A14430162564FE2F008D2D91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14430142564FE2F008D2D91 /* Main.storyboard */; };
+		A14430182564FE2F008D2D91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14430172564FE2F008D2D91 /* Assets.xcassets */; };
+		A144301B2564FE2F008D2D91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14430192564FE2F008D2D91 /* LaunchScreen.storyboard */; };
+		A144301E2564FE2F008D2D91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A144301D2564FE2F008D2D91 /* main.m */; };
+		A144302E2564FFA6008D2D91 /* LGWNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A144302D2564FFA6008D2D91 /* LGWNetworkManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11257FFCFF000905EF78910F /* Pods_LGWNetworkingDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGWNetworkingDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1621A09BE663C3A290A1BA77 /* Pods-LGWNetworkingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGWNetworkingDemo.release.xcconfig"; path = "Target Support Files/Pods-LGWNetworkingDemo/Pods-LGWNetworkingDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6ADB211DA1B82A0D151ADFCD /* Pods-LGWNetworkingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGWNetworkingDemo.debug.xcconfig"; path = "Target Support Files/Pods-LGWNetworkingDemo/Pods-LGWNetworkingDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A14430082564FE2F008D2D91 /* LGWNetworkingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGWNetworkingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A144300B2564FE2F008D2D91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A144300C2564FE2F008D2D91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A144300E2564FE2F008D2D91 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A144300F2564FE2F008D2D91 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		A14430112564FE2F008D2D91 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A14430122564FE2F008D2D91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A14430152564FE2F008D2D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A14430172564FE2F008D2D91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A144301A2564FE2F008D2D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A144301C2564FE2F008D2D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A144301D2564FE2F008D2D91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A144302B2564FF81008D2D91 /* LGWNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGWNetworking.h; sourceTree = "<group>"; };
+		A144302C2564FFA6008D2D91 /* LGWNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGWNetworkManager.h; sourceTree = "<group>"; };
+		A144302D2564FFA6008D2D91 /* LGWNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGWNetworkManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A14430052564FE2F008D2D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B77B07B3FD20F8DB3556704 /* Pods_LGWNetworkingDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F29168EEB8A0DC4F69C8BD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11257FFCFF000905EF78910F /* Pods_LGWNetworkingDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FCE5D72E1512E44E41641C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6ADB211DA1B82A0D151ADFCD /* Pods-LGWNetworkingDemo.debug.xcconfig */,
+				1621A09BE663C3A290A1BA77 /* Pods-LGWNetworkingDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A1442FFF2564FE2F008D2D91 = {
+			isa = PBXGroup;
+			children = (
+				A14430262564FE52008D2D91 /* LGWNetworking */,
+				A144300A2564FE2F008D2D91 /* LGWNetworkingDemo */,
+				A14430092564FE2F008D2D91 /* Products */,
+				9FCE5D72E1512E44E41641C9 /* Pods */,
+				8F29168EEB8A0DC4F69C8BD7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A14430092564FE2F008D2D91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A14430082564FE2F008D2D91 /* LGWNetworkingDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A144300A2564FE2F008D2D91 /* LGWNetworkingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A144300B2564FE2F008D2D91 /* AppDelegate.h */,
+				A144300C2564FE2F008D2D91 /* AppDelegate.m */,
+				A144300E2564FE2F008D2D91 /* SceneDelegate.h */,
+				A144300F2564FE2F008D2D91 /* SceneDelegate.m */,
+				A14430112564FE2F008D2D91 /* ViewController.h */,
+				A14430122564FE2F008D2D91 /* ViewController.m */,
+				A14430142564FE2F008D2D91 /* Main.storyboard */,
+				A14430172564FE2F008D2D91 /* Assets.xcassets */,
+				A14430192564FE2F008D2D91 /* LaunchScreen.storyboard */,
+				A144301C2564FE2F008D2D91 /* Info.plist */,
+				A144301D2564FE2F008D2D91 /* main.m */,
+			);
+			path = LGWNetworkingDemo;
+			sourceTree = "<group>";
+		};
+		A14430262564FE52008D2D91 /* LGWNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A144302B2564FF81008D2D91 /* LGWNetworking.h */,
+				A144302C2564FFA6008D2D91 /* LGWNetworkManager.h */,
+				A144302D2564FFA6008D2D91 /* LGWNetworkManager.m */,
+			);
+			name = LGWNetworking;
+			path = ../LGWNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A14430072564FE2F008D2D91 /* LGWNetworkingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14430212564FE2F008D2D91 /* Build configuration list for PBXNativeTarget "LGWNetworkingDemo" */;
+			buildPhases = (
+				922F67A52ECC012B45523737 /* [CP] Check Pods Manifest.lock */,
+				A14430042564FE2F008D2D91 /* Sources */,
+				A14430052564FE2F008D2D91 /* Frameworks */,
+				A14430062564FE2F008D2D91 /* Resources */,
+				22BCB058A17B741F21054CF6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGWNetworkingDemo;
+			productName = LGWNetworkingDemo;
+			productReference = A14430082564FE2F008D2D91 /* LGWNetworkingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A14430002564FE2F008D2D91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					A14430072564FE2F008D2D91 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = A14430032564FE2F008D2D91 /* Build configuration list for PBXProject "LGWNetworkingDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1442FFF2564FE2F008D2D91;
+			productRefGroup = A14430092564FE2F008D2D91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A14430072564FE2F008D2D91 /* LGWNetworkingDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A14430062564FE2F008D2D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A144301B2564FE2F008D2D91 /* LaunchScreen.storyboard in Resources */,
+				A14430182564FE2F008D2D91 /* Assets.xcassets in Resources */,
+				A14430162564FE2F008D2D91 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22BCB058A17B741F21054CF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LGWNetworkingDemo/Pods-LGWNetworkingDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LGWNetworkingDemo/Pods-LGWNetworkingDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LGWNetworkingDemo/Pods-LGWNetworkingDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		922F67A52ECC012B45523737 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LGWNetworkingDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A14430042564FE2F008D2D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14430132564FE2F008D2D91 /* ViewController.m in Sources */,
+				A144300D2564FE2F008D2D91 /* AppDelegate.m in Sources */,
+				A144301E2564FE2F008D2D91 /* main.m in Sources */,
+				A144302E2564FFA6008D2D91 /* LGWNetworkManager.m in Sources */,
+				A14430102564FE2F008D2D91 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A14430142564FE2F008D2D91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A14430152564FE2F008D2D91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A14430192564FE2F008D2D91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A144301A2564FE2F008D2D91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A144301F2564FE2F008D2D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A14430202564FE2F008D2D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A14430222564FE2F008D2D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ADB211DA1B82A0D151ADFCD /* Pods-LGWNetworkingDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2R55J8C7W;
+				INFOPLIST_FILE = LGWNetworkingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lugick.LGWNetworkingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A14430232564FE2F008D2D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1621A09BE663C3A290A1BA77 /* Pods-LGWNetworkingDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2R55J8C7W;
+				INFOPLIST_FILE = LGWNetworkingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lugick.LGWNetworkingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A14430032564FE2F008D2D91 /* Build configuration list for PBXProject "LGWNetworkingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A144301F2564FE2F008D2D91 /* Debug */,
+				A14430202564FE2F008D2D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A14430212564FE2F008D2D91 /* Build configuration list for PBXNativeTarget "LGWNetworkingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14430222564FE2F008D2D91 /* Debug */,
+				A14430232564FE2F008D2D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A14430002564FE2F008D2D91 /* Project object */;
+}

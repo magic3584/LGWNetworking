@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LGWNetworking"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "An networking based on AFNetworking 4.0.1"
 
   # This description is used to generate tags and improve search results.

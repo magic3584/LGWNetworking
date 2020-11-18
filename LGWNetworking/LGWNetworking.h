@@ -8,5 +8,7 @@
 #ifndef LGWNetworking_h
 #define LGWNetworking_h
 
+#import "LGWNetworkManager.h"
+
 
 #endif /* LGWNetworking_h */

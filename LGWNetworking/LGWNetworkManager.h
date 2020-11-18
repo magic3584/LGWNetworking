@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LGWNetworkManager : NSObject
 
++ (LGWNetworkManager *)sharedInstance;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

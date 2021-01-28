@@ -37,6 +37,7 @@
 		A144302B2564FF81008D2D91 /* LGWNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGWNetworking.h; sourceTree = "<group>"; };
 		A144302C2564FFA6008D2D91 /* LGWNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGWNetworkManager.h; sourceTree = "<group>"; };
 		A144302D2564FFA6008D2D91 /* LGWNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGWNetworkManager.m; sourceTree = "<group>"; };
+		A144307D25653286008D2D91 /* LGWEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGWEnum.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				A144302B2564FF81008D2D91 /* LGWNetworking.h */,
+				A144307D25653286008D2D91 /* LGWEnum.h */,
 				A144302C2564FFA6008D2D91 /* LGWNetworkManager.h */,
 				A144302D2564FFA6008D2D91 /* LGWNetworkManager.m */,
 			);
